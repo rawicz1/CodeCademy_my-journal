@@ -42,6 +42,7 @@ const App = () => {
 
   return (
     <div className="app">
+      {/* authorize */}
       {!authToken && <Auth />}
       {authToken && 
       <>
